@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:20px;
+    border-radius: 12px;
+    /* justify-content: space-around;
+    align-items: center;
+    align-self: center; */
+}
+
+.head{
+    font-size: 20px;
+    padding:5px;
+    font-family: "Roboto";
+}
+
+.emoji-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
+
+.img-section{
+    height:60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.app-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    background-color: lightblue;
+    border-radius: 12px;
+    padding:10px;
+}
+
+.button-container{
+    border:none;
+    background-color: white;
+}
+
+.emogi-content{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    background-color: rgb(166, 177, 158);
+}
+
+.section-rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    background-color: white;
+    border-radius: 16px;
+    padding:40px;
+}
+
+.love-emogi{
+    height:80px;
+    width: 100px;
+}
